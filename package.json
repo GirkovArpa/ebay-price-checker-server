@@ -1,0 +1,12 @@
+{
+  "name": "ebay-price-checker-server",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js $PORT"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^3.2.9"
+  }
+}
